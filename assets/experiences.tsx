@@ -19,7 +19,7 @@ const experiences = [
             {
                 title: "Taxi vouchers management system",
                 description: "Management of taxi vouchers for the company's employees, including the generation of reports and statistics.",
-                technologies: ["Angular", "Spring-boot", "Postgres"]
+                technologies: ["Angular", "Spring-boot", "Oracle"]
             },{
                 title: "Efficiency line management system",
                 description: "Developed web app for the supervisors to monitor the efficiency of the employees"+
