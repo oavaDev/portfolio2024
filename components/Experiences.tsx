@@ -8,7 +8,7 @@ export default function Experiences() {
             </span>
             {experiences && experiences.map((experience, i) => {
                 return (
-                    <Experience key={i} title={experience.title} company={experience.company} date={experience.date} description={experience.description} />
+                    <Experience key={i} title={experience.title} company={experience.company} date={experience.date} description={experience.description} projects={experience.projects} />
                 )
             })}
         </section>
