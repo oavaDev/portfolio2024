@@ -12,7 +12,7 @@ export default function AboutMe() {
                 </div>
                 <div>
                     <h2 className="text-4xl font-bold text-center">Omar Vega</h2>
-                    <p className="py-2 text-xl text-center">Software Developer</p>
+                    <p className="py-2 text-xl text-center text-teal-300">Software Developer</p>
                 </div>
                 <p className="py-2">
                     Software developer and Systems Engineering student, I&apos;m passionate about using technology to
