@@ -5,27 +5,35 @@ const experiences = [
         date: "Apr 2023 - Present",
         description: [
             "Creation and implementation of effective technology solutions. Assessing business and end-user needs. Working together with versatile teams to ensure successful completion of projects.",
-            "Developed  web applications for the company's internal use.",
-            "Worked on the frontend using React and Angular and on the backend using Spring-boot.",
-            "Created views, procedures and functions in the database in order to properly fit the requirements set on the project presentation. (Oracle / Postgres)",
+            "Worked on projects in the frontend using React and Angular and on the backend using Spring-boot for internal applications.",
         ],
         projects : [
             {
                 title: "Overall Equipment effectiveness management system",
-                description: "Management of production stops " +
-                    " in the company's production lines.",
-                technologies: ["Angular", "Spring-boot", "Oracle"]
+                description: "Developed a web application using Angular to calculate the overall equipment effectiveness (OEE) on the company's production lines. The company faced challenges in accurately calculating and analyzing equipment efficiency, which was crucial for optimizing production processes and minimizing downtime.",
+                subDescription: [
+                    "Users input records immediately upon a shutdown, capturing the start time to ensure real-time data collection. At the end of the shutdown, they add additional detailed information, providing a comprehensive dataset. ",
+                    "This data is transmitted to a database where I created views to facilitate efficient querying, ensuring quick and easy access to the information.",
+                    "An API built with Spring Boot retrieves this information from the database and returns it to the Angular application. This setup allows for the generation of detailed reports and comprehensive analysis by area and equipment.",
+                    "As a result, supervisors can make data-driven decisions to enhance overall production efficiency."
+                ],
+                technologies: ["Angular", "Spring-boot", "Oracle","Docker"]
+            },{
+                title: "Efficiency line management system",
+                description: "Developed a web application for supervisors to monitor and track the efficiency of employees on the company's production lines.",
+                subDescription: [
+                    "The company faced challenges in tracking and analyzing employee performance, relying heavily on paper-based records. This manual system was inefficient, prone to errors, and lacked real-time data visibility.",
+                    "The web application provided supervisors with the ability to view live data on employee performance, including task completion times and production rates.",
+                    "The implementation of this system led to a significant improvement in production efficiency. Supervisors were able to make data-driven decisions, resulting in reduced downtime and increased overall productivity.",
+                    "Additionally, the shift from a paper-based system to a digital one reduced the company's environmental footprint and operational costs."
+                ],
+                technologies: ["React", "Spring-boot", "Oracle"]
             },
             {
                 title: "Taxi vouchers management system",
-                description: "Management of taxi vouchers for the company's employees, including the generation of reports and statistics.",
+                description: "Management of taxi vouchers for the company's employees.",
                 technologies: ["Angular", "Spring-boot", "Oracle"]
-            },{
-                title: "Efficiency line management system",
-                description: "Developed web app for the supervisors to monitor the efficiency of the employees"+
-                    " in the company's production lines.",
-                technologies: ["React", "Spring-boot", "Oracle"]
-            }
+            },
         ]
     }
 ]

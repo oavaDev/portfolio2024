@@ -1,8 +1,8 @@
-import Experience from "oava/components/Experience";
+import Experience from "oava/components/Experience/Experience";
 import experiences from "oava/assets/experiences";
 export default function Experiences() {
     return (
-        <section className="w-full p-3 my-12 flex flex-col  justify-center content-center mx-auto">
+        <section className="w-full p-3 my-12 flex flex-col  justify-center content-center mx-auto" id="Experience">
             <span className="text-center text-2xl pb-3">
                 Experience
             </span>

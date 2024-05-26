@@ -21,8 +21,15 @@ export default function Experience({title, company, date, description,projects})
                                     <li key={i} className="text-md p-3">
                                         <h3 className="text-xl text-teal-500 pb-2 ">{project.title}</h3>
                                         <p className="text-md text-gray-300 pb-3">{project.description}</p>
+                                        <ul className="pl-4 list-disc text-gray-300 flex flex-col gap-2 pb-2">
+                                            {project.subDescription && project.subDescription.map((subDescription: any, i: number) => {
+                                                return (
+                                                    <li key={i}>{subDescription && subDescription}</li>
+                                                )
+                                            })}
+                                        </ul>
                                         <div className="text-gray-300 flex gap-2 bg">
-                                            {project.technologies && project.technologies.map((technology : any,i : number) => {
+                                            {project.technologies && project.technologies.map((technology: any, i: number) => {
                                                 return (
                                                     <span className="
                                                     text-sm

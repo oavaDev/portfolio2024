@@ -1,8 +1,8 @@
 import styles from './AboutMe.module.css'
-import Experiences from "oava/components/Experiences";
+import Experiences from "oava/components/Experience/Experiences";
 export default function AboutMe() {
     return (
-        <section className="w-full p-3 my-12 flex flex-col  md:flex-col xl:flex-col 2xl:flex-row justify-around" >
+        <section className="w-full p-3 my-12 flex flex-col  md:flex-col xl:flex-col 2xl:flex-row justify-around" id="aboutMe" >
             <div
                 className="py-2 w-full sm:w-1/2 md:w-11/12 lg:w-11/12xl:w-1/2 2xl:1/2 max-w-lg flex flex-col mx-auto  ">
                 <div
@@ -43,7 +43,6 @@ export default function AboutMe() {
                         <li>Typescript</li>
                     </ul>
                 </div>
-                <Experiences/>
             </div>
         </section>
     );
