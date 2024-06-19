@@ -5,11 +5,11 @@ export default function AboutMe() {
         <section className="w-full p-3 my-12 flex flex-col  md:flex-col xl:flex-col 2xl:flex-row justify-around" id="aboutMe" >
             <div
                 className="py-2 w-full sm:w-1/2 md:w-11/12 lg:w-11/12xl:w-1/2 2xl:1/2 max-w-lg flex flex-col mx-auto  ">
-                <div
+                {/*<div
                     className="py-2 w-full sm:w-1/2 md:w-11/12 lg:w-11/12 xl:w-1/2 2xl:1/2 max-w-lg flex relative justify-center content-center m-auto ">
                     <img src="https://res.cloudinary.com/dj80e8qqp/image/upload/v1711074083/oava2_prf0jk.jpg"
                          alt="placeholder" className={styles.oavaImage}/>
-                </div>
+                </div>*/}
                 <div>
                     <h2 className="text-4xl font-bold text-center">Omar Vega</h2>
                     <p className="py-2 text-xl text-center text-teal-300">Software Developer</p>
