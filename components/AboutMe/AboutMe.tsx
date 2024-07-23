@@ -1,5 +1,8 @@
 import styles from './AboutMe.module.css'
 import Experiences from "oava/components/Experience/Experiences";
+import { FaLinkedin } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
+import { FaGithub } from "react-icons/fa";
 export default function AboutMe() {
     return (
         <section className="w-full p-3 my-12 flex flex-col  md:flex-col xl:flex-col 2xl:flex-row justify-around" id="aboutMe" >
@@ -13,6 +16,19 @@ export default function AboutMe() {
                 <div>
                     <h2 className="text-4xl font-bold text-center">Omar Vega</h2>
                     <p className="py-2 text-xl text-center text-teal-300">Software Developer</p>
+                    <div className="flex justify-center items-center gap-2">
+                        <a href="https://www.linkedin.com/in/oavega/" target="_blank" rel="noreferrer">
+                            <FaLinkedin className="text-3xl text-white-500"/>
+                        </a>
+                        <a href="mailto:omarvega598@gmail.com" target="_blank" rel="noreferrer">
+                            <IoIosMail className="text-4xl text-white-500"/>
+                        </a>
+                        <a href="https://github.com/oavaDev" target="_blank" rel="noreferrer">
+                            <FaGithub className="text-4xl text-white-500"/>
+                        </a>
+
+                    </div>
+
                 </div>
                 <p className="py-2">
                     Software developer and Systems Engineering student, I&apos;m passionate about using technology to
