@@ -11,6 +11,13 @@ const experiences = [
             {
                 title: "Summit event website",
                 description: "Developed  a website for the company, where the employees are able to know which events they are invited to and information related to them such as  time, details, location with a map, the QR code needed to get into the event and dress code. The staff have a dedicated user and section on the website to read the QR code and validate attendance.",
+                subDescription: [
+                    "Using NestJS and TypeORM on the backend to ensure a robust, scalable, and secure API for managing events, attendees, and staff actions.",
+                    "Implementing Angular on the frontend to deliver a responsive and user-friendly interface for employees and staff.",
+                    "Leveraging PostgreSQL as the database to store event details, user data and attendance records with integrity and reliability.",
+                    "Integrating QR code generation and scanning capabilities to streamline event check-in processes and validate attendance efficiently.",
+                    "Utilizing OpenStreetMap API to provide accurate location details for each event."              
+                ],
                 technologies: ["Angular", "NestJs", "Postgres"]
             },
             {
