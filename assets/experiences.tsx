@@ -9,6 +9,11 @@ const experiences = [
         ],
         projects : [
             {
+                title: "Summit event website",
+                description: "Developed  a website for the company, where the employees are able to know which events they are invited to and information related to them such as  time, details, location with a map, the QR code needed to get into the event and dress code. The staff have a dedicated user and section on the website to read the QR code and validate attendance.",
+                technologies: ["Angular", "NestJs", "Postgres"]
+            },
+            {
                 title: "Overall Equipment effectiveness management system",
                 description: "Developed a web application using Angular to calculate the overall equipment effectiveness (OEE) on the company's production lines. The company faced challenges in accurately calculating and analyzing equipment efficiency, which was crucial for optimizing production processes and minimizing downtime.",
                 subDescription: [
@@ -33,7 +38,7 @@ const experiences = [
                 title: "Taxi vouchers management system",
                 description: "Management of taxi vouchers for the company's employees.",
                 technologies: ["Angular", "Spring-boot", "Oracle"]
-            },
+            }
         ]
     }
 ]
